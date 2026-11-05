@@ -1,0 +1,10 @@
+{
+  "name": "eta-bar",
+  "displayName": "ETA Bar",
+  "version": "1.0.0",
+  "description": "Status-line ETA for Claude Code: what Claude is doing, when it expects to hand back, and a 'ready for you' marker when it does.",
+  "author": {"name": "DrEvil", "url": "https://github.com/DrEvil-TitaniumHelix"},
+  "license": "MIT",
+  "repository": "https://github.com/DrEvil-TitaniumHelix/eta-bar",
+  "keywords": ["statusline", "eta", "hooks", "progress"]
+}

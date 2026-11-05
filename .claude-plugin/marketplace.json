@@ -1,0 +1,15 @@
+{
+  "name": "eta-bar",
+  "description": "ETA Bar: a status-line ETA for Claude Code, by DrEvil.",
+  "owner": {
+    "name": "DrEvil",
+    "url": "https://github.com/DrEvil-TitaniumHelix"
+  },
+  "plugins": [
+    {
+      "name": "eta-bar",
+      "source": "./",
+      "description": "Status-line ETA: what Claude is doing, when it hands back."
+    }
+  ]
+}
