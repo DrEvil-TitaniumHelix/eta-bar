@@ -48,6 +48,12 @@ Restart Claude Code. Hooks load at session start.
 
 The `SessionStart` hook prints a one-paragraph duty into the session's context: before any batch of tool calls longer than a few seconds, run `python eta.py set "<what I'm doing>" <minutes>`, and update it as steps finish. Claude Code exports `CLAUDE_CODE_SESSION_ID` to the shell, which is how `set` finds the right session. If you want it stricter, copy that paragraph into your `CLAUDE.md`.
 
+## Works with sticky-ruling
+
+When the estimate slips, Claude can put the heads-up on screen as a [sticky ruling](https://github.com/DrEvil-TitaniumHelix/sticky-ruling): an always-on-top window with the new estimate and an acknowledge button, while the session keeps working.
+
+![ETA overdue as a sticky ruling](docs/sticky_eta_overdue.png)
+
 ## Optional: "ready for you" pop-up (Windows)
 
 Create the empty file `~/.claude/eta/TOAST_ON` and a small always-on-top window appears at the top right when Claude hands back after 45 seconds or more of work. It never takes keyboard focus and closes itself when you type the next prompt. Off by default.
